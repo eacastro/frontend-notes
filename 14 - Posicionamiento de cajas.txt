@@ -1,0 +1,87 @@
+14 - Posicionamiento de cajas:
+------------------------------
+
+En un sitio web por lo general tú puedes acomodar un elemento
+donde tú quieras.
+
+Posicionamiento normal:
+-------------------------
+
+Este tipo de posicionamiento es el posicionamiento por 
+defecto que el navegador da a nuestros elementos en bloque,
+colocándolos uno después del otro. También se le conoce como
+posicionamiento estático.
+
+Posicionamiento relativo:
+-------------------------
+
+Este tipo de posicionamiento es (como su nombre lo indica)
+relativo a una ubicación imaginaria (por así decirlo) que
+tendría la caja mediante su flujo normal de elementos.
+
+Para posicionar las cajas usamos las propiedades "top",
+"right", "left", y "bottom". 
+
+Los valores de estas propiedades también pueden ser negativos.
+Esto nos permite invertir la dirección de posicionamiento de
+la caja. Por ejemplo, si colocamos la propiedad left a un
+valor de -200px lo que sucederá es que se desplazará nuestra
+caja hacia la izquierda 200px.
+
+Posicionamiento absoluto:
+-------------------------
+
+Este tipo de posicionamiento permite ubicar una caja tomando
+como referencia su elemento padre. Al usar posicionamiento
+absoluto, nuestra caja sale del flujo normal de cajas de
+nuestra página. (Los otros elementos hacen de cuenta que esta
+caja no existe) Para posicionar recordemos que usamos las
+propiedades "top", "right", "left" y "bottom".
+
+A diferencia del posicionamiento relativo, el posicionamiento
+absoluto se hace tomando como referencia los límites de su
+elemento padre.
+
+Posicionamiento relativamente-absoluto:
+----------------------------------------
+
+Este tipo de posicionamiento se da cuando tenemos un elemento
+con posicionado absoluto cuyo padre es un elemento de
+posicionado relativo. Lo que sucederá es que estará 
+posicionado de forma absoluta pero con referencia a su 
+elemento padre con posicionamiento relativo.
+
+
+Posicionamiento fijo:
+---------------------
+
+Este tipo de posicionamiento funciona como el posicionamiento
+absoluto en el sentido de que la caja queda por fuera del 
+flujo normal de la página, pero permite que la caja quede 
+fija en su ubicación de la pantalla. Esto significa que
+aunque hiciéramos scroll o desplazamiento sobre los elementos
+de la pantalla, nuestra caja permanecería fija en su ubicación.
+
+Esto nos permite dar solución a varios casos de uso, por
+ejemplo cuando queremos que la barra de menú se conserve
+fija en la parte superior de nuestra página independiente
+de que el usuario haga scroll.
+
+Posicionamiento flotante:
+-------------------------
+
+El posicionamiento flotante es una técnica que nos permite
+acomodar elementos en línea dentro de su eje horizontal. 
+Recordemos que los elementos en línea por defecto se acomodan uno después del otro en el eje vertical. Para poder
+acomodarlos en su eje horizontal es necesario usar tecnicas 
+como esta. Para flotar un elemento lo que hacemos es usar
+la propiedad float. Esta propiedad puede recibir los valores
+left y right. Si hacemos que un elemento flote hacia la 
+derecha, por ejemplo, pasarán dos cosas importantes:
+
+1- El elemento saldrá del flujo normal de la página: esto 
+significa que es como si no existiera para los demás
+elementos.
+
+2- el elemento se posicionará en el extremo derecho de su 
+elemento padre.

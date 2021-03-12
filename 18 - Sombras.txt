@@ -1,0 +1,21 @@
+18 - Sombras:
+-------------
+
+Sombras en texto:
+-----------------
+
+La propiedad text-shadow nos permite aplicar sombras al texto. A nivel de diseño no se recomienda mucho usar sombras sobre el
+texto, ya que hace que los textos se van muy sobrecargados.
+
+Esta propiedad recibe cuatro valores que indican lo siguiente de izquierda a derecha:
+1 - La alineación horizontal de la sombra.
+2 - La alineación vertical de la sombra.
+3 - La dureza de la sombra. Mientras menor es el valor, la sombra será más dura, y mientras mayor es, es más difuminada y suave.
+4 - El color de la sombra.
+
+Sombras de caja:
+----------------
+
+Con CSS podemos sombrear las cajas de nuestros elementos. Esto se hace mediante la propiedad box-shadow. Esta propiedad también
+recibe los mismos cuatro valores que la propiedad text-shadow, y estos valores a su vez hacen referencia a las mismas propiedades
+de la sombra que en text-shadow.

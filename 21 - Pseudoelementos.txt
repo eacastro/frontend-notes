@@ -1,0 +1,38 @@
+21 - Pseudoelementos:
+---------------------
+Los pseudo elementos nos permiten seleccionar ciertas partes de 
+nuestros elementos. Se diferencian de las pseudoclases en que
+nos permiten trabajar de una forma más granular, o más a detalle.
+La sintaxis de los pseudoelementos es mediante dobles dos puntos
+y el nombre del pseudoelemento, por ejemplo ::first-letter.
+
+El pseudoelemento ::first-letter:
+---------------------------------
+Representa la primera letra de un elemento. Con este pseudo-elemento
+podemos seleccionar la primera letra de un párrafo y aplicarle estilos
+para generar un efecto de capitalización, como en los periódicos.
+
+El pseudoelemento ::first-line:
+---------------------------------
+Este pseudoelemento funciona exactamente igual que la pseudoclase.
+LO único que varía es la sintaxis.
+
+El pseudoelemento ::selection:
+---------------------------------
+Con el pseudoelemento selection podemos establecer estilos que aplicarán
+cuando el usuario seleccione o resalte una porción de texto o elementos
+de nuestra página web.
+
+El pseudoelemento ::before:
+---------------------------------
+Con este pseudoelemento podemos colocar contenido antes del elemento que
+deseemos. 
+
+
+El pseudoelemento ::after:
+---------------------------------
+Con este pseudoelemento podemos colocar contenido después del elemento que
+deseemos.
+
+Es importante recordar que tanto before como after requieren del uso de la
+propiedad content.

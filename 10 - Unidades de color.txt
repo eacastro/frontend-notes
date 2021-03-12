@@ -1,0 +1,36 @@
+10 - Unidades de color:
+------------------------
+
+Las unidades de color son las formas en las que podemos 
+expresar colores para nuestros elementos en CSS.
+
+Tenemos cuatro formas para escoger colores en CSS. La primera
+es mediante palabras clave (keywords). Tenemos muchas
+palabras reservadas que hacen mención a colores que podemos usar. Aunque estos colores son poco estéticos o bonitos, pero
+nos pueden servir para depurar nuestros desarrollos.
+
+También tenemos el rgb decimal. Para expresar un color en rgb
+usamos la siguiente sintaxis: rgb(cant-rojo, cant-verde, 
+cant-azul);
+
+También tenemos los valores rgb hexadecimales. Los valores de 
+color hexadecimal son valores de tres o seis caracteres que
+inician con un símbolo de hashtag. Esta es la forma más 
+utilizada para expresar colores por su practicidad al momento
+de escribirla.
+
+La última forma sería con rgb porcentual, que es muy similar
+a rgb en decimal pero se diferencia en que expresamos los 
+colores en porcentajes. Para expresar esta medida de color
+en CSS usamos la sintaxis rgb(porc-rojo, porc-verde,
+porc-azul, porc-alfa).
+
+También podemos expresar transparencias mediante rgb usando
+la sintaxis de rgba así: rgba(cant-rojo, cant-verde, c-azul,
+cant-transparencia-alfa)
+
+El valor alfa permite especificar el nivel de transparencia
+del color que estemos indicando. Este nivel va de 0 a 1,
+donde 0 es totalmente transparente y 1 es 100% sin
+transparencia. Así que podemos indicar esto en decimales.
+

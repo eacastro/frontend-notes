@@ -1,0 +1,47 @@
+7 - Enlaces:
+------------
+
+Con CSS podemos cambiar lo que queramos en cuanto al aspecto
+de los enlaces. 
+
+Una de las propiedades que podemos usar para los enlaces es
+la propiedad text-decoration, la cual permite establecer, 
+como su nombre lo indica, la decoración por defecto que 
+tendrá un elemento, en este caso los enlaces. Podemos por
+ejemplo quitarles el subrayado que traen por defecto los
+enlaces, o agregar otro tipo de decoración.
+
+Pseudoclases:
+-------------
+
+Las pseudoclases nos permiten aplicar estilos dependiendo de
+una condición o estado. Para el caso de los enlaces, podemos
+aplicar pseudoclases cuando el enlace ha sido visitado, 
+cuando se encuentra en su estado normal, o cuando por ejemplo
+pasamos el cursor sobre el enlace.
+
+:hover:
+-------
+
+La pseudoclase hover nos permite justamente hacer lo último:
+aplicar ciertos estilos cuando el cursor pasa sobre el
+elemento.
+
+:link:
+------
+
+Permite establecer los estilos que queremos que tengan los
+enlaces que no han sido visitados.
+
+:visited:
+---------
+
+Permite establecer los estilos que queremos que tengan los
+enlaces que ya se han visitado. 
+
+:active:
+--------
+
+Permite establecer los estilos a aplicar cuando se pulsa
+el enlace. Si mantenemos pulsado el enlace sin soltarlo
+podremos apreciar claramente los estilos que se aplican.

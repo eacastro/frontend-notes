@@ -1,0 +1,88 @@
+11 - Modelo de caja:
+--------------------
+
+Conocer sobre el modelo de caja es esencial para diseñar o
+desarrollar cualquier sitio web que quieras hacer.
+
+El modelo de caja son una serie de reglas que permiten 
+tratar a cada elemento de HTML como una caja con una serie
+de propiedades que se le pueden aplicar o modificar, y que
+a su vez permiten determinar en qué parte de la página web
+se muestra ese elemento.
+
+Básicamente existen dos tipos de cajas que nos ofrece CSS:
+Cajas en línea y cajas en bloque. A cada uno de estos 
+elementos les aplican ciertas reglas por defecto.
+
+Reglas de cajas en línea:
+-------------------------
+
+1- Se renderizarán una después de otra en el sentido
+horizontal.
+
+2 - Su ancho se determina basado en el contenido que posean.
+
+3 - 
+
+Reglas de cajas en bloque:
+-------------------------
+
+1 - Se renderizarán una después de otra en el sentido
+vertical.
+
+2 - Su ancho por defecto es el 100 % de su elemento padre.
+
+3 - Su alto se determina basado en el contenido que posean.
+
+Respecto a las cajas en bloque, para ejemplificar estas
+reglas, supongamos que tenemos un elemento div (el cual es un
+elemento en bloque) dentro del elemento body sin ningún tipo de contenido. Por defecto este elemento nos va a ocupar todo el espacio del body, y si agregamos más elementos en bloque,
+estos ocuparán el 100% del body también. 
+
+Si quisiéramos, por ejemplo darle un contenido a ese div 
+inicial, como un párrafo, por defecto la altura de nuestro
+div sería la altura de la extensión de nuestro párrafo.
+
+Respecto a las cajas en línea, para ejemplificar un poco, 
+podemos suponer que si tenemos por ejemplo un elemento <p>
+dentro de nuestro <body> y dentro de él un elemento <span>
+que marca cierto fragmento de texto, por defecto sucedería
+lo siguiente:
+
+Este elemento se renderizaría en el sentido horizontal, y 
+si tuviéramo algún otro <span> se renderizaría justo a su
+lado. Las propiedades de height y width dependen
+completamente de su contenido, e intentar sobrescribirlas 
+no producirá ningún efecto al ser cajas en línea.
+
+Márgenes:
+---------
+
+Los márgenes son una propiedad del modelo de caja que
+permiten espaciar un elemento respecto a otros. El margen
+se toma desde el borde del elemento hacia fuera.
+
+Padding:
+---------
+
+El padding es una propiedad del modelo de caja que permite
+espaciar un elemento desde su borde hacia su interior, por
+lo que no es un espaciado con respecto a otros elementos 
+sino que respecto a sí mismo.
+
+Cuando trabajamos con cajas que contienen texto, por ejemplo,
+no modificamos la altura por lo general, ya que al tener una
+altura fija corremos el riesgo de que nuestro texto se
+desborde, dándonos un efecto extraño y poco estético.
+Recordemos que la altura de nuestros elementos en bloque se
+calcula o determina con base al contenido de éste.
+
+Border:
+-------
+
+El borde es una propiedad del modelo de caja que permite 
+especificar un borde para un elemento. El borde es una 
+distancia que separa el interior del elemento de caja de su
+exterior.
+
+

@@ -1,0 +1,83 @@
+4 - Selectores avanzados:
+---------------------------
+
+Hay varios selectores avanzados, pero algunos de los más
+importantes son los siguientes:
+
+Selector de hijos (Child Combinator):
+--------------------------------------
+
+Selecciona el elemento que sea hijo directo del elemento
+padre que le indiquemos. Por ejemplo:
+
+div>p {
+    font-size: 20px;
+}
+
+Este ejemplo seleccionará todos los elementos p que sean
+hijos directos de un elemento div, sin tener en cuenta otro
+elemento que haya en medio de los dos. Esto es lo que lo 
+diferencia principalmente del selector descendente.
+
+Selector de atributos:
+------------------------
+
+Selecciona elementos con un atributo dado. Por ejemplo:
+
+a[title] {
+    color: blue;
+}
+
+Este ejemplo selecciona los elementos a que tengan el 
+atributo title.
+
+Mediante el selector de atributos también podemos seleccionar
+elementos que coincidan con los pares atributo-valor que le
+indiquemos. Por ejemplo:
+
+a[href="https://www.google.com.co"] {
+   color: blue;
+}
+
+En esta regla seleccionaríamos todos los elementos a que
+tengan el valor "https://www.google.com.co" en su atributo
+href.
+
+Herencia:
+----------
+
+La herencia es una propiedad importante de los estilos con
+CSS. Cuando seleccionamos un elemento que dentro de la
+estructura de HTML es padre de otros elementos, todos los
+estilos que apliquemos a ese elemento se heredarán a los
+elementos hijo a menos que especifiquemos lo contrario.
+
+Por ejemplo. Supongamos que dentro del elemento body yo
+tengo dos párrafos y un ancla. Si tengo en mi hoja de 
+estilos lo siguiente:
+
+body {
+    color: blue;
+}
+
+Todo el texto que se encuentre en el elemento body tendrá
+el color azul, aunque no hayamos especificado ningún estilo
+para los hijos de body. En esto consiste la herencia. Pero
+si por ejemplo tengo los mismos elementos que mencioné antes
+y esto en mi hoja de estilos:
+
+body {
+    color: blue;
+}
+
+a {
+    color: yellowgreen;
+}
+
+Se heredarán todos los estilos definidos en la regla con el
+selector de etiqueta body, y se sobreescribirá la propiedad
+que esté definida en la regla con selector de etiqueta a.
+
+Por lo tanto, decimos que la herencia consiste en que todos
+los estilos definidos en un elemento padre se heredarán a 
+sus elementos hijos a menos que se sobreescriban. 

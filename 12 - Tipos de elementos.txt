@@ -1,0 +1,32 @@
+12 - Tipos de elementos:
+------------------------
+
+Con HTML y CSS manejamos diferentes tipos de elementos, como
+mencionaba en el apunte anterior. Cada tipo de elemento 
+tiene un comportamiento por defecto que le permite ubicarse
+en determinado lugar de la página web.
+
+Tenemos dos tipos de elementos: Elementos en línea y 
+elementos en bloque. Cada tipo de elemento tiene sus 
+ventajas y desventajas al momento de realizar páginas web.
+Como vimos en el apunte pasado: un elemento en línea sólo
+ocupará el espacio necesario para mostrar su contenido,
+mientras que un elemento en bloque ocupará todo el espacio
+de ancho de su elemento padre, y le podremos agregar o 
+modificar propiedades como el padding, el margin el width y
+el height.
+
+Con un elemento en línea no podemos usar las anteriores
+propiedades ya que no surgen ningún efecto sobre ellos. 
+
+Ahora bien, que un elemento sea en línea no significa que no
+podamos modificar su comportamiento. Gracias a la propiedad
+display podemos modificar el comportamiento de la caja, o la
+manera en como CSS trata a determinado elemento.
+
+Un valor de la propiedad display muy interesante es el valor
+"inline-block". Este valor nos permite tratar a la caja como
+un elemento en línea, pero su interior podrá recibir
+modificaciones que haríamos a una caja en bloque. Esto
+significa que podríamos por ejemplo aplicarle margin o 
+padding.

@@ -1,0 +1,49 @@
+3 - Selectores (Parte 2):
+------------------------
+
+Selector de clase:
+------------------
+
+Este selector permite elegir o seleccionar cualquier
+elemento que tenga la clase que apliquemos en el 
+HTML. Ejemplo:
+
+.big {
+    font-size: 28px;
+}
+
+Esto aplicará un tamaño de fuente de 28 pixeles a los
+elementos que tengan la clase "big". Es importante 
+anotar que las clases no están ligadas a ningún tipo 
+de elemento HTML, así que podemos colocarle clases
+a elementos HTML diferentes y aún así se estilizarán
+de la misma manera. 
+
+Selector de id:
+---------------
+
+Los selectores de id se escriben con un símbolo de 
+hashtag seguido por el nombre del id que definamos en
+el HTML, por ejemplo:
+
+#special-link {
+    color: yellowgreen;
+}
+
+Esta regla aplicará el color yellowgreen al elemento
+identificado con el id "special-link".
+
+La diferencia entre clases y id's es que básicamente
+sólo puedes repetir las clases. Aunque tú repitieras
+un id en varios elementos el navegador aplicaría los
+estilos correctamente, pero no se recomienda hacer esto
+en absoluto, ya que los id están pensados para
+identificar de forma única a un elemento de nuestra 
+página web. Esto es muy útil cuando queremos seleccionar
+ese elemento usando JavaScript. Siempre que quieras 
+aplicar estilos a diversos elementos mediante un 
+identificador, debes usar clases.
+
+Todos los selectores pueden combinarse. Podemos por ejemplo
+combinar un selector descendente con selectores de clase y
+selectores de etiqueta.

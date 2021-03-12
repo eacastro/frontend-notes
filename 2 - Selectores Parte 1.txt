@@ -1,0 +1,77 @@
+2 - Selectores (Parte 1):
+------------------------
+
+Hay muchos tipos de selectores que nos permiten elegir
+o seleccionar diferentes elementos HTML en diferentes
+situaciones.
+
+Adicionalmente, en CSS también podemos especificar
+comentarios. Los comentarios es todo aquello que 
+coloquemos dentro de nuestro CSS que será ignorado por
+el navegador. Los comentarios son de ayuda para
+nosotros como desarrolladores.
+
+Para insertar un comentario en nuestras hojas de estilo
+usamos la siguiente sintáxis:
+
+/* Contenido de tu comentario */
+
+Selector universal:
+--------------------
+
+Este selector se escribe con un asterisco *. Este
+selector permite seleccionar todos los elementos de 
+nuestra página web. Es muy util cuando queremos 
+reiniciar ciertos estilos que por defecto el navegador
+aplica a nuestros elementos, y permite que todos los
+navegadores apliquen por defecto el mismo estilo a 
+nuestras páginas web.
+
+Selector de etiqueta:
+----------------------
+
+Este selector permite elegir una o varias etiquetas.
+Se escribe con el mismo nombre de las etiquetas HTML.
+Por ejemplo, si quisiéramos seleccionar todos los 
+párrafos de nuestra página web, usaríamos el selector
+p, o si quisieramos seleccionar todos los enlaces de
+la página HTML, usamos el selector a.
+
+Agrupando selectores en una misma regla:
+------------------------------------------
+
+Podemos aplicar la misma regla a diferentes selectores.
+Esto nos permite reutilizar el código y ahorrar líneas.
+Para agrupar varios selectores en una misma regla 
+simplemente separamos sus nombres por comas, ejemplo:
+
+h1, h2, h3, h4 {
+    color: blue;
+}
+
+Esta sintaxis aplica el color de texto azul a los 
+titulares h1, h2, h3 y h4.
+
+Selector descendente:
+----------------------
+
+Permite seleccionar elementos que estén dentro de otros
+elementos. Por ejemplo:
+
+div p {
+    color: yellow;
+}
+
+Esta regla se aplicará a los párrafos que se encuentren
+dentro de elementos div en nuestra página web. Entonces
+cuando en una sintaxis encontramos que hay varios
+elementos en un selector separados por espacios, se 
+trata de un selector descendente.
+
+Es importante resaltar que el selector descendente va
+a seleccionar las etiquetas que le indiquemos sin 
+importar el elemento que haya en medio de estas
+etiquetas. Básicamente si tenemos un elemento dentro
+de otro elemento y se cumple esa condición, no 
+importará qué otros elementos haya en medio del 
+elemento final, este se seleccionará.	

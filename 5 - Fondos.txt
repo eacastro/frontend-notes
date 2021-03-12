@@ -1,0 +1,93 @@
+5 - Fondos:
+-----------
+
+Cuando queremos aplicar un fondo a nuestra página web es muy
+recomendable hacerlo directamente sobre el elemento body, ya
+que de esta forma el fondo ocupará el 100% del espacio en
+pantalla.
+
+Propiedad background:
+---------------------
+
+Esta propiedad permite establecer una serie amplia de valores
+como colores, por ejemplo. Los colores pueden expresarse en
+formato hexadecimal. Para esto puedes consultar sitios web
+que te ofrezcan paletas de colores, como HTML color codes, o
+alguno de esos. Para expresar un hexadecimal debes iniciar
+con el símbolo de almohadilla (#) y seguido colocas el valor.
+
+Con la propiedad background también podemos establecer una 
+imagen como fondo. Para esto simplemente tienes que utilizar
+como valor la funcion url() y como parámetro le proporcionas
+la ruta de la imagen que quieres tener como fondo.
+
+background-repeat:
+------------------
+
+Cuando una imagen de fondo es muy pequeña, por defecto lo que
+sucederá es que se repetirá horizontal y verticalmente. Esto
+podemos corregirlo usando otra propiedad llamada
+background-repeat, la cual por defecto trae el valor repeat.
+Si no queremos que la imagen se repita simplemente le damos
+el valor no-repeat a la propiedad background-repeat.
+
+Otros valores para la propiedad background-repeat son 
+"repeat-x", que nos permite repetir la imagen únicamente en
+el eje horizontal, y "repeat-y" que nos repite la imagen 
+unicamente en formato vertical.
+
+background-size:
+----------------
+
+Mediante CSS podemos especificar el tamaño del fondo. Esto lo
+hacemos con la propiedad background-size. El valor de esta
+propiedad puede estar en pixeles, porcentajes, o cualquier 
+otra unidad de medida que ofrece CSS. Se recomienda sólamente
+proporcionar una dimensión, ya que podemos establecer el alto
+y el ancho, pero en ocasiones esto deforma las imagenes.
+
+También podemos usar algunos valores literales que CSS nos 
+proporciona, como "cover". Este valor hace que la imagen 
+cubra por completo su elemento padre.
+
+background-attachment:
+----------------------
+
+Esta propiedad permite especificar si queremos que la imagen
+esté fija a nuestro viewport, o que tenga la posibilidad de
+desplazarse junto al contenido. Por defecto el valor con el
+que viene esta propiedad es el de "scroll", así que por 
+defecto la imagen se desplazará con nuestro contenido. Pero
+podemos pasarle el valor "fixed" y veremos como la imagen
+queda fija al viewport y no se desplaza con el contenido.
+
+background-position:
+--------------------
+
+Esta propiedad, como su nombre lo indica, permite especificar
+la posición del fondo que establezcamos. Podemos pasarle
+valores en píxeles tanto para el eje vertical como el 
+horizontal, por ejemplo: 200px 20px aplicará 200 píxeles 
+verticalmente desde el borde superior y 20 píxeles 
+horizontalmente desde el borde izquierdo de la página. 
+También podemos pasar el valor "center" a ambos ejes para que
+la imagen quede centrada.
+
+Las propiedades background-repeat, background-attachment y
+background-position pueden especificarse directamente sobre
+la propiedad background, después de indicar la ruta del
+archivo. Únicamente pasas los valores y css reconoce que 
+estás especificando esas propiedades para tu fondo. Esto
+permite ahorrar líneas de código, pero también hace que 
+tu código sea menos explícito para leer. Así que ya 
+dependerá de tus gustos personales si usas un código más 
+explícito o resumes líneas de código.
+
+El fondo no solamente podemos aplicárselo al body de nuestra
+página web. También puede aplicarse sobre los divs o los
+contenedores.
+
+Otra opción que tienes para colocar fondos sobre tus páginas
+web es la de las texturas. Las texturas son imagenes pequeñas
+que gracias a que se repiten terminan conformando un fondo
+muy bonito para la página web.

@@ -1,0 +1,71 @@
+1 - Nuestros primeros estilos CSS:
+------------------------------------
+
+Lo primero en saber antes de escribir nuestra hoja de
+estilos, es que por lo general estos estilos se 
+escriben en un archivo diferente a nuestro archivo 
+HTML. Por esta razón, es necesario relacionar nuestra
+página web con los estilos que hemos escrito en el
+otro archivo. Esto lo hacemos mediante la etiqueta
+<link>. Esta etiqueta tiene dos parámetros importantes
+para relacionar una hoja de estilos. El primero es el
+parámetro rel. En este parámetro vamos a colocar el
+valor "stylesheet", que indica que el enlace que
+estamos creando con la página es con una hoja de
+estilo.
+
+El siguiente atributo es href. En este atributo vamos
+a indicar la ruta en la que se encuentra ubicado 
+nuestro archivo css. Recordemos que las rutas deben
+especificarse usando rutas relativas, no rutas 
+absolutas.
+
+Una vez tengamos relacionado nuestro archivo de estilos
+con el archivo en HTML, podemos comenzar a escribir 
+nuestros estilos.
+
+Introducción a las reglas de estilo CSS:
+----------------------------------------
+
+Una regla CSS es un tipo de estructura que se
+caracteriza por aplicar ciertas propiedades de estilo
+a determinado elemento seleccionado mediante un 
+selector. Es un bloque de código que permite
+declarar ciertas propiedades a algo que nosotros
+deseemos. La sintaxis básica de una regla de CSS es
+la siguiente:
+
+nombre-selector { ... Declaraciones CSS }
+
+Existen varios tipos de selectores, pero básicamente
+todos sirven para lo mismo: seleccionar un elemento
+(o un grupo de elementos) de nuestro HTML. Entonces
+podríamos decir que un selector es un elemento de 
+nuestras hojas de estilo que nos permite elegir 
+cierto elemento o elementos de nuestro HTML para
+aplicar las propiedades CSS que nosotros declaremos. 	
+
+Existen dos formas adicionales para aplicar estilos
+CSS sin crear un archivo separado. Una forma es dentro
+del archivo HTML, usando la etiqueta <style>. Dentro
+del contenido de esta etiqueta vamos a colocar todas
+las reglas y declaraciones CSS que queramos. Es de
+aclarar que la desventaja de esto es que los estilos
+únicamente van a aplicar a la página web donde los
+escribamos.
+
+La otra forma es usando estilos en línea. Esto se hace
+escribiendo la sintaxis de CSS directamente sobre las
+etiquetas de HTML. Esta forma es supremamente engorrosa
+ya que aplica los estilos muy concretamente. Así que
+si tuviéramos muchas páginas web en nuestro sitio, 
+sería complejo buscar el punto donde hemos modificado
+los estilos en línea de un elemento.
+
+Ninguna de las dos formas anteriores y adicionales para
+agregar estilos se recomienda, justamente por su uso
+poco práctico y porque perdemos la capacidad de aplicar
+estilos generalizados a varios archivos de HTML usando
+un sólo archivo de CSS. 
+
+

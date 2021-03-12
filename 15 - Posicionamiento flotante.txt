@@ -1,0 +1,38 @@
+15 - Posicionamiento flotante:
+------------------------------
+
+Cuando tienes un elemento que contiene elementos flotantes,
+el elemento contenedor ignorará sus elementos hijo flotantes.
+Esto sucede porque los elementos flotantes salen del flujo
+normal de la página. Por lo tanto, no están contribuyendo a
+formar parte de la altura de su elemento padre. Para
+solucionar este problema, básicamente tenemos dos 
+alternativas: 
+
+1 - Clear.
+2 - Overflow.
+
+1 - Clear:
+----------
+
+La propiedad clear nos permite indicarle al elemento padre
+que retome el flujo normal que llevaba antes de ignorar a los
+hijos flotantes que posee. Para aplicar esta propiedad 
+necesitamos que haya un hijo que no sea flotante dentro de
+los elementos que contiene el elemento padre. Seleccionamos
+este hijo no flotante y le aplicamos la declaración
+clear: both. Esto restablecerá la altura de nuestro elemento
+padre. Esto podríamos decir que es un clear desde el elemento
+hijo. Pero también podemos hacer un clear desde el elemento
+padre directamente.
+
+2 - Overflow:
+-------------
+
+Esta propiedad permite limpiar el inconveniente que se
+presenta cuando un elemento padre ignora a sus hijos haciendo
+que no contribuyan a su propia altura. Para aplicar esta 
+propiedad seleccionamos el elemento padre y aplicamos la 
+declaración overflow: hidden. Esto hará que el padre restaure
+su flujo normal previo y tome en cuenta a sus hijos para su
+altura anterior.

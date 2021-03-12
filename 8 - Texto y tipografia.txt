@@ -1,0 +1,39 @@
+8 - Texto y tipografia:
+------------------------
+
+Con CSS podemos hacer muchas cosas para cambiar el estilo de
+nuestros textos. Por ejemplo, podemos cambiar el tipo de 
+fuente, el color, el espaciado que hay en cada letra, etc.
+
+Lo ideal cuando cambiamos el tipo de fuente es agregar varios
+valores. Por ejemplo, si colocamos Arial como fuente, también
+podemos colocar seguido las fuentes Helvetica y sans-serif.
+
+Esto se debe a que es posible que nuestro tipo de fuente no
+cargue, o por alguna razón no se encuentre disponible.
+Entonces lo que hacemos a traves de los diferentes valores es
+proporcionarle tipografías de respaldo en caso de que la 
+tipografía principal no cargue.
+
+Algo importante respecto a los nombres de fuente es que si
+el nombre lleva espacios hay que indicar el valor del nombre
+de la fuente entre comillas. Esta es una regla muy importante.
+
+Si yo tengo una fuente para mi página web que instalé de algún sitio web, y es una fuente que por defecto no viene con windows o mac, debo siempre colocar su nombre entre comillas.
+
+Además, si yo quiero que las demás personas vean esa fuente
+en un primer momento no podrán ya que esa fuente sólamente 
+está instalada en mi máquina local. Hay otras formas de hacer
+que los usuarios vean exactamente el tipo de fuente que 
+queremos, como Google Fonts, por ejemplo.
+
+Una propiedad muy interesante que podemos usar con textos
+es la propiedad text-transform. Esta propiedad permite
+cambiar el texto a mayúsculas o minúsculas o capitalizar.
+
+Con CSS también podemos cambiar el espaciado de cada letra
+en un texto. Esto lo hacemos con la propiedad letter-spacing.
+
+También podemos cambiar el espaciado entre líneas de texto
+gracias a la propiedad line-height. 
+

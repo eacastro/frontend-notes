@@ -1,0 +1,17 @@
+6 - Gradientes:
+----------------
+
+Los gradientes son un tipo de fondo que podemos utilizar no
+tan aplicado a fondos de página sino más bien a fondos de 
+nuestros elementos, como botones, contenedores y demás. 
+Usar gradientes nos da un estilo muy bonito en algunos 
+diseños. Sin embargo, por temas de tendencia ya no se usan
+aunque puede darse el caso en que haya que usarlos, así que
+no está de más aprenderlos.
+
+Para usar un gradiente se recomienda usar alguna herramienta
+generadora de gradientes online. La herramienta se utiliza
+ya que permite ahorrar trabajo en cuanto al código, además
+hay ciertos navegadores que no son compatibles 100% con los
+gradientes, por lo que es bueno generar el código para 
+asegurar esta compatibilidad.

@@ -1,0 +1,25 @@
+9 - Unidades de medida:
+------------------------
+
+En CSS tenemos diferentes unidades de medida que nos permiten
+calcular longitudes para nuestros elementos. Existen dos 
+tipos de unidades de medida: relativas y absolutas. 
+
+Las unidades absolutas no se usan ya que no son nada 
+dinámicas.
+
+Aunque hay más (y puedes investigar por tu cuenta como usar
+las otras), las unidades relativas más utilizadas son:
+
+- em
+- rem
+- %
+
+El porcentaje es relativo al elemento padre de donde estemos
+calculando esa longitud.
+
+La unidad em es relativa al valor de la declaración de
+font-size más cercano.
+
+La unidad rem es relativa al valor de la propiedad font-size
+del elemento root, es decir: html.

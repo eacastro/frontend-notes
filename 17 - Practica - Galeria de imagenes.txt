@@ -1,0 +1,13 @@
+17 - Practica - Galeria de imagenes:
+------------------------------------
+
+Las dimensiones en porcentaje nos van a permitir crear diseños adaptables para dispositivos móviles.
+
+La propiedad vertical-align nos permite establecer la alineación vertical de una imagen. 
+
+Por lo general solo se debe redimensionar el ancho de una imagen con CSS, ya que al redimensionar el alto, la imagen
+se va a distorsionar.
+
+La propiedad opacity nos permite cambiar la opacidad de un elemento, no la de su color, sino la del elemento en general.
+Esto nos permite crear efectos muy vistosos y bonitos. Recordemos que los valores de opacity van desde 0.0 a 1.0, donde
+0.0 representa totalmente opaco, y 1.0 representa nada de opacidad.

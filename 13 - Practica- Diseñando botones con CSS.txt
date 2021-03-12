@@ -1,0 +1,14 @@
+13 - Practica: diseño de botones con CSS:
+------------------------------------------
+
+Para lograr una apariencia de botón muchas veces lo que se 
+suele hacer es darle estilo a los elementos <a>, que son los
+que permiten crear enlaces.
+
+Es recomendable dividir nuestros estilos en clases ya que 
+estas nos permiten reutilizar el código, y además en nuestro
+archivo de HTML podemos marcar a nuestros elementos con
+varias clases separando su nombre mediante un espacio.
+
+Esta práctica contribuye a tener un código de CSS más
+ordenado y reutilizable.

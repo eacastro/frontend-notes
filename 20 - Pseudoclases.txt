@@ -1,0 +1,49 @@
+20 - Pseudoclases:
+------------------
+
+Las pseudoclases son estados que pueden tener nuestros elementos
+en diferentes situaciones. También podríamos definirlas como
+elementos de CSS que nos permiten aplicar estilos si se cumple
+con cierta condición.
+
+Por ejemplo, los enlaces. Cuando aplicas una pseudoclase :hover 
+a un enlace, estás definiendo una serie de estilos que aplicarán
+únicamente cuando el usuario pase su cursor por encima del enlace.
+
+Pseudoclase :hover:
+--------------------
+Nos permite aplicar estilos cuando el usuario pasa el cursor sobre
+el elemento.
+
+Pseudoclase :active:
+--------------------
+Nos permite aplicar estilos cuando un elemento se encuentra activo.
+Decimos que un elemento está activo cuando el usuario pulsa sobre el.
+Ese momento en el que el usuario pulsa el elemento, le da el estado
+de "activo", y podemos aplicar ciertos estilos a ese estado también.
+
+Pseudoclase :visited:
+---------------------
+Permite establecer estilos cuando se ha visitado un enlace. Un enlace
+se marca como "visitado" cuando el usuario ha accedido a él para ir
+a otra página web, o alguna sección de nuestra página web.
+
+Pseudoclase :first-line:
+------------------------
+Aplica estilos a la primera línea de un texto.
+
+Pseudoclase :nth-child():
+-------------------------
+Aplica estilos a determinado elemento hijo dentro de un elemento padre.
+Por ejemplo: Si tenemos un div con tres párrafos en su interior, y queremos
+aplicar estilos únicamente al segundo párrafo, podemos proporcionar el valor
+dos (2) a la pseudoclase, y de esta manera los estilos que definamos
+sólamente se aplicarán al segundo hijo de nuestro div.
+
+Es importante no tratar de memorizar todo esto. Simplemente es una buena
+práctica conocer estas pseudoclases y familiarizarse con ellas, ya que 
+en internet tenemos referencias de CSS que nos ayudarán a descubrir estas
+pseudoclases, y también encontrar otras nuevas que nos pueden ser de
+utilidad, es cuestión de investigar y consultar estas referencias.
+
+

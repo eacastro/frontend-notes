@@ -1,0 +1,50 @@
+19 - Bordes y bordes redondeados:
+---------------------------------
+
+La propiedad border:
+--------------------
+
+Esta propiedad permite establecer un borde para un elemento
+de nuestra página web con ciertas características.
+
+Esta propiedad solicita tres valores:
+
+1 - El grosor del trazo.
+2 - El tipo de trazo.
+3 - El color del trazo (Podemos usar las notaciones de color)
+
+Tipos de trazo:
+---------------
+
+Los tipos de trazo que tenemos son:
+1 - solid -> Crea una línea como borde.
+2 - dotted -> El borde se crea de forma punteada.
+3 - dashed -> Crea un borde con líneas discontinuas.
+4 - double -> Crea un borde doble.
+5 - groove -> Crea un borde con un biselado interno.
+6 - ridge -> Crea un borde con un biselado externo.
+7 - inset -> Crea un borde con un efecto de marco.
+8 - outset -> Crea un efecto de marco con relieve hacia fuera
+
+
+Bordes redondeados:
+-------------------
+
+Las cajas de nuestra página web se pueden redondear mediante
+la propiedad border-radius. 
+
+Esta propiedad recibe varios valores. Si le damos
+un solo valor, aplicará este valor a los cuatro extremos de
+la caja. Si suministramos los cuatro valores, los aplicará
+a los lados izquierdo superior, derecho superior, derecho
+inferior e izquierdo inferior.
+
+Si le pasamos sólamente dos valores los aplicará a los 
+extremos superior izquierdo e inferior derecho.
+
+También podemos pasarle un valor de 100%, aunque este valor 
+solamente tendrá efecto sobre cajas cuadradas, ya que pasarle
+un valor así lo que hará es que redondeará la caja.
+
+Si usamos un valor de 100% sobre una caja rectangular, se
+creará una especie de elipse.

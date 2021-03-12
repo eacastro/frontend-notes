@@ -1,0 +1,68 @@
+16 - Visualizacion:
+-------------------
+
+La visualizacion va relacionada con otros temas, como el 
+posicionamiento de cajas. Tiene que ver con cómo se van a ver
+las cajas en nuestro documento HTML.
+
+Declaracion display: none
+--------------------------
+
+La declaración display:none no permite que se muestre el 
+elemento que seleccionemos con nuestro CSS. Es decir, lo 
+quita de la pantalla.
+
+
+Propiedad visibility:
+----------------------
+
+Cuando usamos esta propiedad con el valor hidden lo que
+hacemos es ocultar el elemento sobre el que estemos aplicando
+la declaración pero sin suprimirlo del layout. Por lo tanto
+se van renderizar las dimensiones de ese elemento, pero no
+su contenido.
+
+El manejo de la visualización de elementos se hace útil
+cuando trabajamos con JavaScript, ya que podemos ocultar 
+ciertos elementos de forma dinámica como respuesta a alguna
+interacción por parte del usuario.
+
+La propiedad overflow:
+----------------------
+
+Además de para hacer la limpieza de los floats, la propiedad
+overflow nos permite ocultar un contenido cuando desborda su
+elemento padre. Supongamos que tenemos una caja con un ancho
+y una altura definidos, pero que esa caja tuviera tanto texto
+que no alcanzara este texto a caber en la caja. Lo que
+sucedería es que este texto se desbordaría.
+
+Declaracion overflow: hidden:
+-----------------------------
+
+Lo que podemos hacer para solucionar este inconveniente es 
+usar la declaración overflow: hidden. Lo que hará esta 
+declaración es ocultar todo el contenido que se esté
+desbordando. Por lo tanto sólamente será visible el contenido
+que alcanza a caber en nuestro elemento padre.
+
+Declaracion overflow: auto:
+---------------------------
+
+Otra forma en la que podemos manejar el problema del
+desbordamiento de nuestro contenido es proporcionando el
+valor "auto" a la propiedad overflow. Esto hará que nuestro
+contenedor genere una barra de desplazamiento que permitirá
+justamente desplazarnos por el contenido que se está
+desbordando, a la par que conservamos las dimensiones fijas
+del elemento padre.
+
+La propiedad z-index:
+---------------------
+
+Esta propiedad nos permite establecer el nivel de profundidad
+de un elemento dentro de nuestra página web. Cuando hablamos
+de profundidad nos referimos al nivel de apilamiento o 
+cercanía con el usuario. Por defecto los elementos traen un
+z-index de 0, y si aumentamos el valor lo que hacemos es que
+estos elementos quedarán apilados más cerca al usuario.

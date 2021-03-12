@@ -1,0 +1,43 @@
+Listas:
+--------
+
+Para quitar las viñetas que por defecto el navegador aplica a 
+nuestras listas, podemos usar la propiedad list-style.
+
+Propiedad list-style:
+---------------------
+Esta propiedad permite modificar el estilo de la viñeta de 
+las listas HTML.
+
+Estilos en lista no ordenada:
+------------------------------
+
+Por defecto, las listas no ordenadas vienen con el valor
+"disc" en la propiedad list-style.
+
+Podemos darle varios valores a esta propiedad de list-style.
+Cada valor le da un tipo de estilo a las viñetas. El valor
+"circle" hace que la viñeta sea un círculo sin relleno. El
+valor "square" genera una viñeta en forma de cuadrado con
+relleno.
+
+Dando imágenes como estilo a unordered-lists:
+---------------------------------------------
+
+Podemos establecer una imagen como estilo a nuestras viñetas
+a través de la propiedad list-style-image. Un recurso de la web
+muy interesante para descargar imagenes que nos sirvan como 
+viñeta, es un sitio web llamado "Flat Icon". Nos permite descargar
+íconos en formato .png para usarlos internamente en nuestras
+páginas web.
+
+Estilos en lista ordenada:
+--------------------------
+
+Los estilos en listas ordenadas los modificamos también mediante
+la propiedad list-style. Hay una serie de valores que podemos 
+utilizar -y siempre que no sepamos cuáles usar podemos consultar
+en la documentación-, como "decimal", "decimal-leading-zero", 
+"lower-roman", etc.
+
+
