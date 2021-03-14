@@ -1,0 +1,29 @@
+4 - Etiquetas para resaltar la importancia de un texto:
+--------------------------------------------------------
+
+HTML nos ofrece ciertas etiquetas que nos permiten resaltar la
+importancia de un texto dentro de, por ejemplo, un párrafo ya definido.
+Estas etiquetas son <b>, <strong>, <i> y <em>.
+
+Tanto <b> como <strong> son representadas visualmente por los
+navegadores como un texto en negrilla. Pero hay una diferencia semántica
+entre estas dos etiquetas. <b> es una etiqueta que carece de semántica
+en HTML. Esto significa que nos permite simplemente representar un
+texto como importante pero únicamente de manera visual, mientras que 
+<strong> representa un texto de forma importante en un sentido semántico. Recordemos que esto tiene un impacto en nuestras páginas web
+ya que la semántica es reconocida por los buscadores y también ayuda 
+a posicionar nuestras páginas web. 
+
+De igual manera funciona con las etiquetas <i> y <em>. <i> es de italic
+y <em> es de "emphasized". Así que si únicamente queremos representar
+un texto en itálica, podemos usar <i>, pero si queremos dotarlo de un
+significado enfático, usamos <em>. 
+
+Algunos recomiendan únicamente usar etiquetas semánticas (<strong> y <em>), ya que con CSS podemos hacer que cualquier fragmento de un texto
+se visualice como negrilla o en itálica. Así que me parece mejor siempre
+usar <strong> y <em> en lugar de <b> e <i>.
+
+Otras etiquetas como <small> (coloca texto pequeño) <mark> (resalta texto)
+<ins> (Inserta texto) <del> (texto tachado) sirven para dar estilo de 
+alguna forma visual al texto, pero no se recomienda tanto usarlas ya que
+estos estilos pueden darse usando CSS.

@@ -1,0 +1,11 @@
+21 - Incrustando videos de YouTube y Vimeo en nuestras páginas:
+
+No sólamente puedes incrustar videos de YouTube y vimeo.
+También puedes incrustar videos de otras plataformas 
+que ofrezcan esa opción.
+
+Lo único que hay que hacer para insertar un video de
+alguna plataforma como YouTube o Vimeo en nuestra
+página web es usar la opción de compartir, y en la 
+opción de insertar copiar el código que te genera
+la plataforma. Es algo muy sencillo.

@@ -1,0 +1,20 @@
+8 - Tablas:
+-----------
+
+Las tablas HTML permiten ubicar determinado contenido que necesite 
+estructurarse justamente como una tabla. Hay muchos casos de uso en los que
+se puede representar el contenido de esta manera. Por ejemplo, mostrando
+un conjunto de registros de usuario, o una agenda telefónica.
+
+Para representar una tabla con HTML usamos la etiqueta <table>. Las tablas
+se componen de filas y columnas. Las filas se representan mediante la 
+etiqueta <tr> (table row) y las columnas formalmente no existen. En su
+lugar lo que hacemos es representarlas mediante celdas contenidas en 
+una fila. Para representar una celda usamos la etiqueta <td> (Table data).
+
+Con las tablas también podemos representar celdas de título, o de
+encabezado. Esto lo hacemos mediante la propiedad <th> (Table header). 
+
+Recordemos que con las etiquetas lo que hacemos es representar 
+semánticamente cada elemento, independiente de que tengan ciertos estilos,
+con CSS se puede estilizar como queramos a las tablas.

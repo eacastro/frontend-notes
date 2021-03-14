@@ -1,0 +1,72 @@
+12 - Etiquetas meta:
+--------------------
+
+Las etiquetas <meta> nos permiten establecer ciertos
+metadatos que serán de utilidad tanto para el navegador
+como para los motores de búsqueda como Google.
+
+name="keywords":
+----------------
+
+Este atributo permite establecer las palabras clave de
+nuestra página web. Anteriormente Google usaba el 
+contenido de esta etiqueta para mostrar tu sitio web
+si alguien escribia palabras clave que coincidían con
+las de tu etiqueta meta.
+
+Aunque ahora con Google no funciona, se recomienda
+usarla para otros navegadores, ya que pueden usar esta
+etiqueta para mostrarla en sus resultados.
+
+Google usa actualmente otro atributo de la etiqueta
+meta.
+
+name="description":
+-------------------
+
+Este atributo nos permite establecer, como su nombre lo
+indica, una descripción del contenido de nuestra página
+web. Esta descripción no debe contener más de 170 
+caracteres, por cuestiones de posicionamiento. Así que
+debes crear una descripción como máximo de 170
+caracteres.
+
+Google revisa esta etiqueta con sus algoritmos, pero 
+también lee el contenido del body de la página. Para 
+aparecer en Google hay que conocer ciertas técnicas 
+conocidas como SEO.
+
+name="author":
+---------------
+
+Nos permite establecer quién es el autor del sitio web.
+También la reconoce Google.
+
+name="viewport":
+-----------------
+
+Gracias al meta viewport es que el diseño responsive
+puede funcionar. Esta etiqueta es muy importante ya que
+establece que el ancho sea igual al ancho del
+dispositivo sobre el que se esté visualizando la página
+web, y también establece una escala inicial de nuestra
+página web.
+
+Esta etiqueta meta viewport es importante para cuando
+nuestra página sea vista en dispositivos con una 
+pantalla angosta. Tiene en su atributo content los 
+siguientes valores:
+
+- width=device-width: Establece que el ancho en que
+nuestra página web se mostrará será el ancho del 
+viewport del dispositivo.
+
+- initial-scale=1.0: Establece el nivel de zoom que 
+tendrá nuestra página al momento de ser cargada por
+primera vez en el navegador. Por defecto es 1. 
+
+Hay otro valor que puede contener la etiqueta que es
+user-scalable=no. Pero no se recomienda tenerlo ya que
+puede afectar a usuarios con discapacidades visuales
+ya que esto deshabilita la posibilidad de hacer zoom.
+

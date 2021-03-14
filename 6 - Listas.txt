@@ -1,0 +1,20 @@
+6 - Listas HTML:
+----------------
+
+Las listas nos permiten ordenar elementos de cierta manera, bien sea a 
+través de viñetas o de forma enumerada. Para representar una lista en
+HTML tenemos dos etiquetas: <ul> y <ol>.
+
+<ul> permite representar listas no ordenadas (unordered list), mientras
+que <ol> es lo inverso: permite representar listas ordenadas (ordered list).
+
+Como bien sabemos, las listas tienen elementos. Cada elemento de lista se
+representa mediante una etiqueta llamada <li> (list item). Usamos esta 
+etiqueta tanto con listas ordenadas como no ordenadas para representar 
+cada elemento.
+
+Con las listas se pueden hacer menús de navegación gracias a CSS. Cada
+elemento de lista puede contener cualquier elemento HTML.
+
+Las listas pueden anidarse también. Esto significa que puedes poner una
+lista dentro de otra.

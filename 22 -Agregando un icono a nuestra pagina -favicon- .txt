@@ -1,0 +1,38 @@
+22 - Agregando un icono a nuestra pagina web (favicon):
+---------------------------------------------
+
+El favicon es el ícono que se muestra en la parte 
+superior de nuestra página web, en la pestaña del 
+navegador. Para agregar un favicon a nuestra página web
+podemos usar cualquier imagen y es un proceso muy
+sencillo.  Todas las páginas web deberían tener un 
+favicon.
+
+Lo único que tenemos que tener es una imagen en un
+formato especial llamado .ico. Se recomienda que esta
+imagen sea cuadrada, ya que si no lo es, se va a
+deformar cuando la coloquemos en nuestras pestañas. Si
+tienes una imagen en un formato diferente, puedes usar
+el sitio web favicon generator, el cual te permite
+subir archivos en png o jpg y te los convierte a .ico.
+
+Para poder cargar una imagen .ico como favicon de
+nuestra página web lo hacemos mediante la etiqueta
+<link> en nuestro <head>, esta etiqueta debe tener
+los siguientes pares atributo-valor:
+
+rel="shortcut icon" (Establece que se va a relacionar
+a un ícono).
+type="image/x-icon" (Establecemos el tipo de contenido)
+href="your path here" (Establecemos la ruta del archivo
+.ico).
+
+Si todo está bien, el ícono se nos mostrará en la parte
+superior de nuestra página web como el ícono de nuestra
+pestaña.
+
+Algo importante a tener en cuenta es que cuando subas
+tu sitio web al servidor, es posible que esta imagen
+se demore en cargar. En este caso lo que debes hacer es
+borrar la caché del navegador ya que contiene archivos
+temporales que no te permiten ver este cambio, y ya.

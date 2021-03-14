@@ -1,0 +1,32 @@
+14 - Usando archivos de audio en HTML:
+---------------------------------------
+
+La etiqueta <audio> nos permite agregar archivos
+multimedia que podemos ejecutar en nuestros sitios web.
+
+Esta etiqueta usa un atributo llamado src="" (source)
+que es el que nos permite establecer la ruta donde se
+encuentra nuestro archivo multimedia de audio.
+
+Si usáramos la etiqueta <audio> únicamente con el 
+atributo src no podríamos representar nada visual en
+el cuerpo de la página web. Para poder representar
+los controles que nos permitan acceder al contenido
+multimedia usamos el atributo controls.
+
+Con los archivos de audio podemos manejar tres tipos
+de formato diferente: mp3, ogg y wav. Cada uno de
+estos formatos tiene diferentes compatibilidades en los
+navegadores, así que se recomienda usar el mp3.
+
+Para especificar el formato de manera explícita en HTML
+usamos la etiqueta <source> dentro de la etiqueta
+<audio>. En esta etiqueta usamos el atributo src y el
+atributo type donde indicamos los tipos de archivo.
+
+Se recomienda colocar tantos <source>s como archivos
+tengamos. Por ejemplo, supongamos que tenemos un audio
+en los diferentes tres formatos. Si el usuario abre
+nuestra página web desde un navegador que no reconoce
+el formato ogg, por ejemplo, no se cargaría ese tipo 
+de archivo, pero podría cargarse el mp3 o el wav.

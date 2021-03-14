@@ -1,0 +1,37 @@
+11 - Etiquetas para citar texto:
+-----------------------------------
+
+Para poder citar un texto que haya sido escrito por
+alguien más, usamos la etiqueta <blockquote>. El texto
+que queramos citar va en medio de las etiquetas de 
+apertura y cierre. 
+
+<blockquote> se caracteriza por visualmente mostrar el
+texto un poco más pequeño y con cierta sangría, para 
+indicar que es una cita. Sin embargo, recuerda que los 
+estilos no son la finalidad de HTML; es decir que todo
+esto lo podemos cambiar con CSS.
+
+La etiqueta <hr>
+-----------------
+
+Esta etiqueta permite establecer una ruptura temática
+de nuestro contenido de texto. Por ejemplo, cuando hay
+un cambio de escena en una historia, o un cambio de 
+tema dentro de una sección. 
+
+Visualmente se representa mediante una línea
+horizontal. De hecho hr son las siglas de "horizontal
+rule". Sin embargo, recuerda que esto tiene una 
+definición semántica, así que sólo debe usarse en
+cambios temáticos. Si únicamente se desea agregar una
+línea divisoria, puede generarse con CSS.
+
+La etiqueta <cite>
+-------------------
+
+Esta etiqueta también se utiliza para citar texto, 
+aunque no es tan común usarla. Si requieres más info
+debes mirar la documentación.
+
+

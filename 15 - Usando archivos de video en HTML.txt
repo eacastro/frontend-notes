@@ -1,0 +1,14 @@
+15 - Usando archivos de video en HTML:
+---------------------------------------
+
+La etiqueta <video> nos permite incrustar videos en
+nuestras páginas web. Es muy similar a la etiqueta
+<audio> en el sentido que podemos usar etiquetas 
+<source> internas para especificar el origen de los
+archivos multimedia. Se recomienda usarla de esta 
+manera ya que permite usar varias fuentes de archivo.
+
+A la etiqueta <video> puede especificarse el ancho
+o el alto a través de los atributos width y height.
+Recordar que si queremos los controles debemos 
+especificarlos con el atributo controls.

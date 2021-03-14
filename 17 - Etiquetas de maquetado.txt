@@ -1,0 +1,83 @@
+17 - Etiquetas de maquetado:
+----------------------------
+
+Las etiquetas de maquetado son las que nos van a servir
+de contenedores para alojar todas las demás etiquetas
+que hemos visto durante el curso.
+
+No podemos simplemente agregar etiquetas o elementos
+sin llevar un orden en estos, o una jerarquía.
+
+Algunas etiquetas de maquetado son:
+
+1 - <div>:
+----------
+
+Esta etiqueta carece de contenido semántico. Nos sirve
+de contenedor para agregar lo que queramos. Los 
+contenedores nos permiten estructurar de forma más
+abstracta nuestro contenido, dividiéndolo en diferentes
+secciones.
+
+Antes el layout de los sitios web se construia usando
+los contenedores <div>, sin embargo con la venida de 
+HTML5 surgieron unas etiquetas nuevas que le dan más
+semántica al contenido que alojemos dentro de los 
+contenedores, valga la redundancia.
+
+2 - <header>:
+-------------
+
+Esta etiqueta permite alojar los elementos que
+conforman el encabezado de nuestra página web.
+
+3 - <nav>:
+----------
+
+Esta etiqueta nos permite alojar enlaces que van a
+conformar nuestro menú de navegación.
+
+4 - <section>:
+--------------
+
+Permite definir o representar una sección de nuestra
+página web.
+
+5 - <article>:
+---------------
+
+Nos permite agregar contenido de texto (artículos de
+texto).
+
+6 - <aside>:
+-------------
+
+Se usa para agregar contenido que no pertenece al
+contenido principal. Por ejemplo, la barra lateral o
+sidebar.
+
+7 - <footer>:
+--------------
+
+Se usa para representar el pie de página de nuestra
+página web.
+
+Como mencioné antes: Las etiquetas diferentes a <div>
+que se enuncian anteriormente, contienen semántica.
+Los elementos semánticos son etiquetas que definen
+con un significado lo que contienen. 
+
+Para el caso de los <div>s, no sabemos qué hay adentro
+de ellos si no los marcamos con una clase que los 
+identifique, en cambio si usamos la etiqueta <header>
+por ejemplo, sabemos que todo el contenido interno de
+este elemento, pertenece al encabezado de la página, y
+los navegadores y buscadores necesitan saber esto para
+todo el tema de posicionamiento y usabilidad de nuestro
+sitio web. Así que es importante conocer sobre la 
+semántica que contiene la estructura de nuestras
+páginas web.
+
+
+
+

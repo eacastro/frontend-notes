@@ -1,0 +1,37 @@
+13 - Atributos class y id:
+---------------------------
+
+Estos atributos son muy comunes. Podría decirse que 
+son de los que más se utilizan, ya que permiten 
+identificar de alguna manera a los elementos de 
+nuestras páginas web.
+
+id:
+---
+
+Este atributo nos permite identificar de forma única
+cada elemento donde se encuentre. Se utiliza mucho
+con JavaScript para poder recuperar el contenido de
+los elementos del DOM y realizar diferentes operaciones
+lógicas con ellos. Es importante recordar que id 
+identifica los elementos de forma única. Esto significa
+que no podemos tener dentro de la misma página dos 
+elementos con el mismo identificador.
+
+class:
+------
+
+Este atributo permite identificar nuestros atributos
+de una forma común. Esto tiene usos muy prácticos en
+el campo de CSS, ya que nos permite aplicar estilos
+a elementos marcados con la clase determinada. Las 
+clases, a diferencia de los id, nos permiten marcar
+varias veces a diferentes elementos de nuestras páginas
+web. Esto significa que pueden repetirse cuantas veces
+necesitemos y en los elementos que necesitemos.
+
+La recomendación es que nunca uses id's para CSS, ya
+que no se pueden repetir, esto hace que los estilos no
+se apliquen de una forma homogénea. Los id's se usan
+con JavaScript o jQuery para recuperar los elementos
+del DOM.

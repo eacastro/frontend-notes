@@ -1,0 +1,14 @@
+23 - Creando un layout sencillo mediante HTML:
+----------------------------------------------
+
+Es importante tener en cuenta que cuando creemos un
+proyecto establezcamos un orden de nuestros 
+recursos y archivos mediante carpetas. Por ejemplo,
+para el caso de los estilos podemos almacenarlos en una
+carpeta llamada "css", para los archivos de imagen 
+podemos guardarlos en una carpeta llamada "images", y
+así sucesivamente.
+
+index.html es el nombre del archivo que el navegador
+por defecto cargará primero, así que se recomienda que
+nuestra página de inicio lleve este nombre.

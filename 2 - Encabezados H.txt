@@ -1,0 +1,9 @@
+2 - Encabezados h:
+-----------------------
+
+HTML nos permite representar títulos o encabezados de título con la 
+etiqueta <h>. Tenemos seis títulos diferentes que van de 1 a 6 en su
+importancia. Se recomienda mucho sólamente usar una etiqueta h1 por 
+página, ya que el posicionamiento de sitios web impone ciertas reglas
+a los desarrolladores y penaliza encontrar más de una etiqueta <h1>
+en una página web.

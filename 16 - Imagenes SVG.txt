@@ -1,0 +1,18 @@
+16 - Imagenes SVG:
+-------------------
+
+Las imagenes svg son un tipo de formato de imagen que
+no se distorsiona, ya que son vectoriales, así que no
+se componen de píxeles sino de vectores.
+
+Las imagenes de formato svg tienen una peculiaridad y
+es que tienen un código interno que es el que las 
+genera.Este código está incrustado dentro de la
+etiqueta <svg>. La etiqueta <svg> permite generar
+la imagen que se visualiza por el navegador en forma
+de código. 
+
+De esta forma tenemos entonces dos maneras de
+visualizar una imagen, o representar una imagen de 
+formato .svg en HTML: Mediante la etiqueta <img> o
+mediante la etiqueta <svg> 

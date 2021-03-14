@@ -1,0 +1,27 @@
+20 - Etiquetas <script> y <noscript>:
+--------------------------------------
+
+<script> nos permite básicamente agregar, incrustar o
+embeber código de JavaScript en nuestras páginas web.
+Es de aclarar que este código puede ir directamente
+colocado como contenido de la etiqueta <script>, o 
+también puede estar en un archivo externo el cual 
+referenciamos mediante el atributo src de la etiqueta
+<script>.
+
+Para agregar esta etiqueta lo puedes hacer en dos 
+maneras: colocándola dentro de la etiqueta <body> o
+colocándola dentro de la etiqueta <head>.
+
+<noscript>:
+-----------
+
+Permite ejecutar o mostrar algún mensaje si el usuario
+no tiene activado JavaScript. Este mensaje puede estar
+incluido dentro de las etiquetas que tú quieras y 
+estilizado de la forma en que tú quieras con CSS.
+
+El contenido que se encuentra dentro de <noscript> se 
+renderizará si JavaScript no está activo, aunque es 
+muy extraño que haya usuarios que tengan JavaScript
+inactivo.

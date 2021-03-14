@@ -1,0 +1,35 @@
+7 - Imagenes HTML:
+--------------------
+
+Podemos insertar imágenes en nuestras páginas web HTML gracias a la
+etiqueta <img />. 
+
+Esta etiqueta cuenta con ciertos atributos que nos permiten apuntar
+a la dirección de la imagen que queremos insertar. Recordar que estas
+rutas que le pasemos a la etiqueta deben ser rutas relativas para una
+mayor comodidad y flexibilidad del sitio web.
+
+El atributo src permite definir la dirección de la imagen (source), y
+el atributo alt nos permite colocar un texto que se mostrará en caso 
+que la imagen no se cargue con éxito. Esto ayuda mucho para la
+accesibilidad.
+
+Con las imagenes podemos agregar los atributos width y height que
+modifican el tamaño, pero no se recomienda ya que esto formaría parte
+de la capa de presentación.
+
+Es de aclarar que las fuentes desde las que podemos agregar imágenes
+no sólamente tienen que estar en nuestro directorio del sitio web.
+También podemos usar un source que esté en internet, para esto debemos
+pasarle la ruta de URL donde está la imagen al atributo src.
+
+También tenemos otro atributo llamado title. Este atributo permite 
+establecer un tooltip que se mostrará cuando pasemos el cursor sobre la
+imagen.
+
+Se recomienda mucho usar el atributo alt ya que ayuda a que los motores 
+de búsqueda les sirve para obtener las imagenes y mostrarlas por ejemplo
+en Google Images. Además que sirve (como ya mencioné) para la accesibilidad.
+
+Las imágenes las podemos encerrar también en enlaces. Es decir que las 
+imágenes pueden ser enlaces.

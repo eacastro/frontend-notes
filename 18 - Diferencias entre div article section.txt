@@ -1,0 +1,32 @@
+18 - Diferencias entre div, article y section:
+-----------------------------------------------
+
+Estas etiquetas funcionan todas para lo mismo: permiten
+contener a otros elementos que van a conformar el
+contenido de nuestra página web. La diferencia radica
+en la semántica (o el significado) de ellas.
+
+A final de cuentas son contenedores, y los contenedores
+van a tener las mismas caracteristicas técnicas de los
+elementos en bloque: van a ocupar el 100% de su
+elemento padre y se van a renderizar uno después de 
+otro.
+
+<div>:
+
+El div es basicamente un contenedor universal o 
+genérico. Podemos poner dentro lo que queramos sin
+restricciones.
+
+<section>:
+
+El elemento section representará una sección de nuestro
+contenido. Por ejemplo: Una sección de nuestro blog.
+Un section puede contener varios artículos o <article>s.
+
+Lo correcto sería que los <article>s estuvieran por 
+fuera de las <section>s, pero por lo general mucha
+gente maneja los artículos dentro de las secciones.
+
+Los divs se usan más que todo para colocar imágenes
+o texto que no podamos colocar en una sección semántica.

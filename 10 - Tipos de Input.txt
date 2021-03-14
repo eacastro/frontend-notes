@@ -1,0 +1,72 @@
+10 - Tipos de Input:
+--------------------
+
+En HTML podemos utilizar otro tipo de input que son un
+poco más recientes.
+
+El atributo type="password" en un elemento <input> nos
+permite establecer un campo de texto para introducir
+una contraseña o clave. Este tipo de campo de texto
+va a ocultar todo lo que escribamos en él.
+
+Puedes limitar la cantidad de caracteres que ingrese
+el usuario gracias a la propiedad maxlength.
+
+El atributo type="color" hace que el campo se convierta
+en un selector de color que guarda el valor del color
+seleccionado por el usuario al momento de enviar el
+formulario.
+
+
+Herramienta para validar compatibilidad de elementos:
+------------------------------------------------------
+
+No todos los navegadores soportan los mismos elementos
+o funcionalidades que HTML ofrece. Para saber con
+certeza si determinado elemento de HTML funcionará 
+sobre todos los navegadores, o sobre cuáles no 
+funcionará, existe una herramienta web llamada
+"Can I use".
+
+En este sitio buscas el tipo de elemento, atributo o
+propiedad CSS que necesites conocer, y te dirá si es
+o no compatible en todos los navegadores, o en qué 
+versión no lo es.
+
+Recordemos que el atributo name de los input permite
+establecer un nombre para ese campo, y ese nombre nos
+permite ir rastreando cada uno de los valores de 
+nuestros campos.
+
+type="number"
+-------------
+
+Este atributo permite que el input sólamente reciba
+números como entrada. Esto nos sirve para diferentes
+casos de uso donde necesitamos cifras o la selección
+de cantidades por parte del usuario.
+
+Este tipo de input permite establecer una cantidad 
+mínima y una cantidad máxima gracias a los atributos
+min y max.
+
+type="range"
+------------
+
+El tipo range nos permite seleccionar una cantidad 
+en el rango que especifiquemos con los atributos
+min y max. Si no especificamos estos atributos, los
+valores por defecto son 0 en min y 100 en max. Esto es útil cuando queremos que el usuario seleccione cifras.
+
+type="url"
+----------
+
+Este atributo permite crear un campo que reciba una 
+entrada con formato de url.
+
+Existen muchos tipos de atributos y elementos que 
+podemos usar en nuestros formularios. Siempre es muy
+importante consultar las referencias de HTML de MDN
+por ejemplo, ya que es imposible memorizar esto.
+
+

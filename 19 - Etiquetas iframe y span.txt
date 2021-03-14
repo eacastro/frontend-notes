@@ -1,0 +1,27 @@
+19 - Etiquetas iframe y span:
+------------------------------
+
+<iframe> nos permite incrustar una página web dentro de
+otra.
+
+Especificamos la página web que queremos abrir dentro 
+del iframe usando el atributo src. El sitio puede ser
+una página web externa o algúna página web que 
+pertenezca a nuestro sitio web.
+
+Podemos darle unas dimensiones al iframe usando los
+atributos width y height. También tiene un atributo
+frameborder que permite establecer el borde del marco.
+
+Esta etiqueta no se usa mucho para incrustar sitios web
+en páginas web. Se usa más para incrustar videos de 
+YouTube y de Vimeo. Tambien se usa mucho para los 
+anuncios en la página.
+
+<span>:
+-------
+
+Esta etiqueta marca cierto fragmento de texto o de
+elemento en línea para agregarle estilos más concretos
+mediante CSS. Es un contenedor en línea, por así 
+decirlo, y tambien carece de importancia semántica.

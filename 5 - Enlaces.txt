@@ -1,0 +1,46 @@
+5 - Enlaces HTML:
+------------------
+
+Los enlaces se logran a través de la etiqueta <a> (de anchor en inglés).
+Para indicar dónde nos lleva ese enlace usamos el atributo href="".
+En el valor de este atributo, si es otro sitio web, debemos comenzar con
+el protocolo http o https. Por ejemplo:
+
+<a href="https://www.google.gom.co">Go to Google</a>
+
+Si omitimos el protocolo, los navegadores intentarán ir a la ubicación
+que les pasemos, pero dentro de la página web actual. Por lo cual, si 
+queremos redireccionar a páginas externas siempre debemos colocar el 
+protocolo.
+
+Los enlaces pueden no necesariamente ser texto. Pueden ser imágenes o
+cualquier otra etiqueta.
+
+Para abrir una página web en otra pestaña, debemos usar el atributo 
+target="_blank". Ejemplo:
+
+<a href="https://www.google.com.co" target="_blank">Go google</a>
+
+Según W3C no es recomendable usar el atributo target para abrir los 
+enlaces en una nueva pestaña, pero no hay nada que nos lo impida. 
+
+Con los enlaces también podemos acceder a otras páginas dentro de nuestro
+sitio web de forma muy sencilla. Para esto tenemos que tener en cuenta
+varios conceptos importantes: 
+
+1 - Un sitio web no es lo mismo que una página web: Cuando hablamos de 
+sitio web nos estamos refiriendo al directorio en el cual alojamos todas
+las páginas que conforman el sitio.
+
+2 - Una página web es simplemente uno de varios documentos que puede 
+tener nuestro sitio web.
+
+3 - Rutas absolutas y relativas: Las rutas absolutas son rutas que indican
+la ubicación de un archivo dentro de un directorio de archivos concreto.
+Las rutas relativas son rutas que se establecen desde un punto determinado
+dentro de la ruta completa, son rutas que tienen en cuenta la ubicación 
+actual del directorio donde esté el archivo.
+
+Para acceder a una página de nuestro sitio web completo usamos rutas
+relativas. Ejemplo: <a href="dummy-page.html">Go to Dummy</a> nos llevaría
+a la página llamada "dummy-page.html".

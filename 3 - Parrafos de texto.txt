@@ -1,0 +1,17 @@
+3 - Párrafos de texto:
+-----------------------
+
+Para indicar semánticamente que determinado contenido que hay en nuestra
+página web es un párrafo, usamos la etiqueta <p>. Cuando estamos 
+escribiendo una página HTML plana, los navegadores por defecto le dan
+ciertos estilos a los párrafos. Como por ejemplo: los separan unos de 
+otros. Estos estilos son por defecto, pero no debemos olvidar que los
+estilos no forman parte de la escritura de HTML. Cuando escribimos 
+código HTML estamos simplemente dándole significado al contenido, por 
+lo que HTML es la capa de estructura de nuestra página web. La capa de
+presentación la cubrimos con CSS.
+
+Si queremos hacer un salto de línea dentro de un párrafo, podemos usar
+la etiqueta <br />. Pero recordemos que todas las etiquetas significan
+algo, y es importante tener en cuenta estos significados para escribir
+estructuras de páginas web más semánticas.

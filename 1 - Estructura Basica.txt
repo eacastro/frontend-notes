@@ -1,0 +1,37 @@
+1 - Estructura basica de una página web:
+--------------------------------------------
+
+Las páginas web poseen una estructura básica que permite que los
+navegadores las interpreten o lean de forma correcta. Esta estructura
+es importante conservarla. Es como una plantilla básica que conformara
+todas nuestras páginas web que creemos.
+
+En primer lugar, la página web debe tener una etiqueta DOCTYPE. Esta
+etiqueta indica al navegador el tipo de documento que deberá interpretar.
+Para el caso de una página web, la etiqueta DOCTYPE es así: <!DOCTYPE html>.
+
+Seguido el doctype, debemos declarar las etiquetas <html></html>. Estas
+etiquetas nos permiten indicar que dentro de ellas se escribirá todo el
+contenido visual y los metadatos de nuestra página web.
+
+Luego del <html> vienen dos etiquetas importantes: <head> y <body>. El
+<head> representa el encabezado de nuestra página web. Pero no es un 
+encabezado visual. Es un encabezado (o cabecera) donde se alojará información
+que será de utilidad tanto para el navegador como para los buscadores. Es
+decir: en la etiqueta <head> colocaremos los metadatos de nuestra página web.
+
+En la etiqueta <body> se indica al navegador que irá todo el contenido visual
+de nuestra página web. Este contenido es el que nuestro usuario final verá, y
+es donde estaremos trabajando la mayor parte del tiempo. Así las cosas
+tendríamos esta estructura básica:
+
+<!DOCTYPE html>
+<html lang="es"> <!-- Si la página web está en español, obviamente -->
+    <head>
+        <meta charset="UTF-8" />
+        <title>Titulo de mi página web</title>
+    </head>
+    <body>
+        <!-- Aquí va todo el contenido visual de la página web -->
+    </body>
+</html>

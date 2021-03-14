@@ -1,0 +1,24 @@
+9 - Formularios:
+----------------
+
+Los formularios en HTML nos permiten enviar información que el usuario
+diligencie. Se usan para obtener datos de algún tipo para almacenarlos
+o procesarlos en el servidor.
+
+Para definir un formulario en HTML usamos la etiqueta <form>. <form> cuenta
+con varios atributos, como action="" o method="". El atributo action 
+permite especificar el script que se encargará de recibir la información
+que el usuario envíe por ese formulario. El atributo method permite
+establecer el método http que se utilizará para enviar el formulario. 
+De los métodos HTTP más conocidos están el método get y el método post.
+
+Dentro de los formularios podemos poner campos de texto, por ejemplo.
+Estos elementos los representamos usando la etiqueta <input>
+
+<input> crea un campo de texto, y tiene diferentes atributos que podemos
+usar como type, con el que especificamos el tipo de entrada del campo de
+texto, el atributo value, que como se indica permite especificar un valor
+por defecto, o el atributo maxlength que permite indicar la longitud 
+máxima de caracteres que el usuario puede ingresar. También tenemos el 
+atributo placeholder. Este atributo establece un valor que ayudará al 
+usuario a orientarse sobre para qué es ese input.
