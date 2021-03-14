@@ -1,0 +1,21 @@
+24 - Tablas:
+------------
+
+Cuando aplicamos borde a una tabla, junto a sus elementos th y td
+lo que sucederá por defecto es que se crearán demasiados bordes en la
+tabla, y nos dará un aspecto poco estético, ya que cada elemento 
+dentro de la tabla tendrá un borde establecido. Para solucionar este
+problema, contamos con la propiedad 'border-collapse'. Si suministramos
+el valor 'collapse', los bordes se fusionarán y nos darán un aspecto 
+más estético.
+
+A los elementos de tabla también podemos agregarles propiedades del modelo
+de caja como 'padding' o 'margin', todo es cuestión de ser creativos e ir
+experimentando.
+
+Resaltando filas con el cursor:
+--------------------------------
+
+Con la pseudoclase :hover podemos hacer que las filas se resalten conforme
+el usuario pase su cursor por sobre cada una de ellas. Esto nos va a permitr
+mejorar mucho la facilidad para leer tablas cuando son excesivamente largas.
