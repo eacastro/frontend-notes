@@ -1,0 +1,32 @@
+25 - Practica: Creando un formulario de contacto:
+--------------------------------------------------
+
+Por defecto cuando creamos campos de formulario con
+el elemento <input> se mostrarán uno después del otro.
+Para darles una apariencia más de formulario podemos
+cambiar su comportamiento mediante la propiedad display
+para que se comporten como cajas en bloque, de esta
+forma podemos hacer que se rendericen uno después del
+otro en nuestra página web.
+
+Limitando el espacio de interaccion en los textarea's:
+------------------------------------------------------
+
+Los elementos <textarea> tienen un selector que permite
+que el usuario cambie su tamaño si pulsa y arrastra en
+ciertas direcciones. Los topes máximos o mínimos que 
+el usuario puede ajustar mediante este selector pueden
+limitarse mediante CSS si usamos las propiedades
+min-width, max-width, min-height y max-height. Todo es
+cuestión de seleccionar nuestro elemento <textarea> y
+mediante estas propiedades podemos limitar el ancho o
+el alto que el usuario puede darle a los <textarea>.
+
+Modificando elementos que tengan el foco:
+-----------------------------------------
+
+Mediante la pseudoclase :focus podemos aplicar estilos
+CSS a nuestros elementos de formulario cuando tengan el
+foco. Que un elemento tenga el foco significa que puede
+recibir eventos de entrada del usuario o eventos de 
+mouse.
