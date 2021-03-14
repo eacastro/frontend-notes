@@ -1,0 +1,27 @@
+23 - Practica: Menú de navegación horizontal:
+---------------------------------------------
+
+En CSS tenemos muchas formas de dar solución a un problema
+de layout, así que con los conocimientos adquiridos hasta ahora
+podemos crear un menú de navegación horizontal de varias formas.
+Dos de ellas pueden ser las siguientes:
+
+1- Creamos nuestra estructura mediante listas no ordenadas y 
+hacemos que cada elemento de lista flote hacia la izquierda
+mediante nuestra propiedad float, aplicamos una limpieza a los
+floats mediante la propiedad overflow, y aplicamos padding a
+cada elemento de la lista para que su contenido se vea centrado.
+Adicional a ello podemos centrar el contenido mediante la propiedad
+text-align. Por supuesto, agregamos nuestros colores de una paleta 
+de colores de preferencia, y ya tendríamos nuestro menú horizontal.
+
+2- Creamos nuestra estructura mediante lista no ordenada y hacemos
+que cada elemento de lista se comporte como una caja inline-block,
+mediante la propiedad display. De esta manera, el comportamiento
+que tenía cada uno de nuestros elementos de lista de mostrarse
+uno debajo del otro, se cambiará para mostrarse uno al lado del
+otro. Este es el layout que queremos para nuestra barra de navegación.
+Podemos aplicar padding a cada elemento de lista para darle un espaciado
+y centrar el texto mediante text-align, y ya tendríamos nuestro menú
+de navegación horizontal. Recordar agregar colores de nuestro gusto
+de una paleta de colores que nos agrade.
