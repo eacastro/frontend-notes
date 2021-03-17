@@ -1,0 +1,8 @@
+1 - Introduccion:
+------------------
+
+Hoy en día todos los sitios web deben ser adaptables. Un sitio web adaptable es aquel
+que, como su nombre indica, se adapta a las pantallas de los diferentes dispositivos.
+Incluso Google promueve los sitios web adaptables o "responsive" castigando a
+aquellos sitios que no son adaptables colocándolos más abajo en sus resultados de 
+búsqueda.
